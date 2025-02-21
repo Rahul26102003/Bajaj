@@ -15,6 +15,10 @@ app.use(
     })
 );
 
+app.get("/", (req, res) => {
+    res.send("Backend is running successfully!");
+});
+
 app.use(express.json());
 
 app.post("/bfhl", (req, res) => {
