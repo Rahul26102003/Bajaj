@@ -9,7 +9,7 @@ app.use(cors());
 // ✅ If you want to allow only your frontend (Recommended)
 app.use(
     cors({
-        origin: "http://localhost:5173", // Allow only frontend
+        origin: "https://bajaj-fauftse4j-rahuls-projects-86c992ca.vercel.app", // Allow only frontend
         methods: ["GET", "POST"], // Allowed methods
         allowedHeaders: ["Content-Type"], // Allowed headers
     })
