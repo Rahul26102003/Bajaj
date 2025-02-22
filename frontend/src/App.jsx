@@ -15,7 +15,7 @@ function App() {
         return;
       }
 
-      const res = await fetch("http://localhost:3000/bfhl", {
+      const res = await fetch("https://bajaj-b6nz.onrender.com/bfhl", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
